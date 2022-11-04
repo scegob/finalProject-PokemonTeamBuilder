@@ -1,0 +1,86 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    flex-direction: column;
+  }
+
+  .TitleSection {
+    background-color: #5DB9FF;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #46aefd;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .TitleSection button {
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+  }
+  
+  .TitleSection button:hover {
+    cursor: pointer;
+  }
+
+  .container {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .Card h3, h4 {
+    margin: 5px;
+  }
+  
+  .Card img {
+    width: 200px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }

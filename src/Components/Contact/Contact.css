@@ -1,0 +1,14 @@
+.center {
+    text-align: center;
+}
+
+.trainerId {
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddingTop {
+    padding-top: 50px;
+}
